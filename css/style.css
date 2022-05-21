@@ -22,7 +22,7 @@
 }
 
 .bg-primary-color {
-    background-color: #fff;
+    background-color: rgb(29, 28, 28);
 }
 
 .bg-secondary-color {
@@ -34,12 +34,13 @@
 }
 
 .primary-color {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 .secondary-color {
     color: #7a7a7a;
 }
+
 
 .bg-color3{
     background-color:#27b88d;
@@ -48,22 +49,31 @@
 /* navbar */
 
 #navbar {
-    border-bottom: 1px solid #7a7a7a;
+    border-bottom: none !important; 
+    
 }
 
 #navbar a:hover {
-    color: #27b88d;
+    color: #4fcba6;
 }
 
 #navbar a:active {
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid #FFC926;
+    color: #27b88d;
     
 }
+
+
 
 li {
     list-style-type: none;
   }
 
+
+.logo{
+    width: 130px;
+    
+}
 
 #navbar-brand {
     display: flex;
@@ -73,18 +83,23 @@ li {
     width: 40px;
 }
 
-.NameLogo{
-    margin-left: 2.4em;
-    font-family: 'Roboto Mono', monospace;
-    color: #000;
-    font-weight: bold;
-    font-size: 30px;
+.navbar-toggler{
+    border: 1px solid #FFC926 ;
+
 }
+.navbar-toggler:before{
+    border:none;
+
+}
+
+
+
 
 #navbar-brand > span {
     font-weight: 700;
     font-size: 1.5em;
     margin-left: 0.5em;
+    
     
 }
 
@@ -103,6 +118,7 @@ li {
         border-bottom: 1px solid #7a7a7a;
         height: 17vh;
     }
+    
 }
 
 
