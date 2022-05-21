@@ -1,8 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
 
 * {
-    font-family: 'roboto', sans-serif;
-    ;
+    font-family: 'Montserrat', sans-serif;
+
+    
+}
+
+.color4{
+    background-color: #fff;
 }
 
 .logo {
@@ -33,6 +41,10 @@
     color: #7a7a7a;
 }
 
+.bg-color3{
+    background-color:#27b88d;
+}
+
 /* navbar */
 
 #navbar {
@@ -40,13 +52,17 @@
 }
 
 #navbar a:hover {
-    color: #7a7a7a;
+    color: #27b88d;
 }
 
 #navbar a:active {
-    border-bottom: 1px solid #050505;
+    border-bottom: 1px solid #000000;
+    
 }
 
+li {
+    list-style-type: none;
+  }
 
 
 #navbar-brand {
@@ -57,10 +73,19 @@
     width: 40px;
 }
 
-#navbar-brand span {
+.NameLogo{
+    margin-left: 2.4em;
+    font-family: 'Roboto Mono', monospace;
+    color: #000;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#navbar-brand > span {
     font-weight: 700;
     font-size: 1.5em;
     margin-left: 0.5em;
+    
 }
 
 #navbar-items .navbar-nav {
@@ -72,6 +97,19 @@
 #navbar-items .nav-item {
     margin: 0 1em;
 }
+
+@media(min-width: 768px){
+    #navbar {
+        border-bottom: 1px solid #7a7a7a;
+        height: 17vh;
+    }
+}
+
+
+.navbar-user button:hover{
+    background-color: rgb(0, 0, 0);
+}
+
 
 /* Slider */
 #slider {
