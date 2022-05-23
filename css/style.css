@@ -41,6 +41,10 @@
     color: #7a7a7a;
 }
 
+.color3{
+    color: #000000;
+}
+
 
 .bg-color3{
     background-color:#27b88d;
@@ -71,7 +75,7 @@ li {
 
 
 .logo{
-    width: 130px;
+    width: 100px;
     
 }
 
@@ -93,16 +97,6 @@ li {
 }
 
 
-
-
-#navbar-brand > span {
-    font-weight: 700;
-    font-size: 1.5em;
-    margin-left: 0.5em;
-    
-    
-}
-
 #navbar-items .navbar-nav {
     display: flex;
     justify-content: center;
@@ -113,10 +107,15 @@ li {
     margin: 0 1em;
 }
 
+#navbar-items .nav-item:hover{
+    border-bottom: 1px solid #FFC926;
+}
+
+
+
 @media(min-width: 768px){
     #navbar {
         border-bottom: 1px solid #7a7a7a;
-        height: 17vh;
     }
     
 }
@@ -125,6 +124,20 @@ li {
 .navbar-user button:hover{
     background-color: rgb(0, 0, 0);
 }
+
+
+
+ul.dropdown-menu{
+    background-color: #FFC926;
+}
+
+@media(min-width : 992px){
+    ul.dropdown-menu{
+        background-color: #FFC926;
+        margin-left: -6.1em;
+    }
+}
+
 
 
 /* Slider */
@@ -161,14 +174,19 @@ li {
     background-color: #111;
 }
 
+#slider .carousel-caption h5 {
+    color: #FFC926;
+}
+
 @media(min-width: 768px) {
     #slider .carousel-caption {
         bottom: 13em;
     }
 
     #slider .carousel-caption h5 {
-        font-size: 3.3em;
+        font-size: 3em;
         text-shadow: #050505 4px 4px;
+        color: #FFC926;
     }
 
     .carousel-caption-prev i,
@@ -185,5 +203,26 @@ li {
 
     .carousel-indicators{
         bottom: 7em;
+    }
+}
+
+
+#mini-banners .card i{
+    font-size: 30px;
+}
+
+#mini-banners h5{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.card{
+    margin-top: 1em;
+   
+}
+
+@media(min-width:768px){
+    #mini-banners{
+        margin-top: -6em;
     }
 }
