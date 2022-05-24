@@ -22,7 +22,7 @@
 }
 
 .bg-primary-color {
-    background-color: rgb(29, 28, 28);
+    background-color: #212529;
 }
 
 .bg-secondary-color {
@@ -175,9 +175,6 @@ ul.dropdown-menu {
     background-color: #111;
 }
 
-#slider .carousel-caption h5 {
-    color: #FFC926;
-}
 
 @media(min-width: 768px) {
     #slider .carousel-caption {
@@ -187,7 +184,7 @@ ul.dropdown-menu {
     #slider .carousel-caption h5 {
         font-size: 3em;
         text-shadow: #050505 4px 4px;
-        color: #FFC926;
+        
     }
 
     .carousel-caption-prev i,
@@ -294,7 +291,7 @@ ul.dropdown-menu {
 }
 
 #links-container a:hover{
-    color: #fff;
+    color: rgb(39, 39, 39);
 }
 
 /* footer bottom */
@@ -303,9 +300,11 @@ ul.dropdown-menu {
     padding-top: 2em;
 }
 
-#footer-bottom i{
-    color: rgb(190, 63, 63);
+.logoFooter{
+    width: 120px;
+    margin-left: 6em;
 }
+
 
 @media(min-width: 768px){
     #news-container{
@@ -320,3 +319,16 @@ ul.dropdown-menu {
         border-right: 1px solid #7a7a7a;
     }
 }
+
+
+
+
+/* estilização projeto.html */
+
+
+#content {
+    margin-top: 8em;
+    margin-bottom: 1em;
+}
+
+
